@@ -1,0 +1,102 @@
+html, body, .main {
+		height:100%;
+		width:100%;
+		font:11px Verdana, sans-serif;
+		margin:0;
+		padding:0;
+	}
+	
+	.main {
+		position:relative;
+		min-height:800px;
+		min-width:740px;
+	}
+
+.my-login-form { background: url(http://dl.dropbox.com/u/99332327/img/scroll3.png) repeat scroll left top transparent;
+height:621px;
+		width:405px;
+		position:absolute;
+		/*bottom:10%;*/
+		top:50%;
+		margin-top:-310px;
+		left:50%;
+		margin-left:-203px;
+}
+
+.my-reg-form { background: url(http://dl.dropbox.com/u/99332327/img/scroll3.png) repeat scroll left top transparent;
+height:621px;
+		width:405px;
+		position:absolute;
+		/*bottom:10%;*/
+		top:50%;
+		margin-top:-310px;
+		left:50%;
+		margin-left:-203px;
+}
+
+/* -------------------------------------------------------------------
+	ФОРМЫ
+------------------------------------------------------------------- */
+.input-text {
+	width: 150px;
+	padding: 5px 5px 4px;
+	border: 1px solid #C0CAD5;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.input-text:focus 	{  }
+.input-checkbox 	{ position: relative; top: 2px; margin: 0 2px 0 1px; }
+
+.input-width-full 	{ width: 100%; }
+.input-width-50 	{ width: 50px; }
+.input-width-100 	{ width: 100px; }
+.input-width-150 	{ width: 150px; }
+.input-width-200 	{ width: 200px; }
+.input-width-250 	{ width: 250px; }
+.input-width-300 	{ width: 300px; }
+.input-width-400 	{ width: 400px; }
+.input-width-500 	{ width: 500px; }
+
+textarea, .markItUpEditor { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; font-family: Tahoma, sans-serif; }
+
+select 		{ padding: 4px 4px 3px; border: 1px solid #ddd; }
+
+fieldset { margin-bottom: 30px; padding-top: 20px; border-top: 1px solid #eaeaea; }
+fieldset legend { color: #000; font-size: 18px; padding-right: 10px; }
+
+form p { margin-bottom: 20px; }
+form label { display: block; margin-bottom: 3px; }
+form .icon-question-sign { cursor: help; }
+
+.note { display: block; margin-top: 3px; font-size: 11px; color: #aaa; }
+.note.note-header { margin-bottom: 20px; }
+
+.captcha-image { vertical-align: top; }
+
+dl.form-item { overflow: hidden; zoom: 1; margin-bottom: 20px; }
+dl.form-item dt { float: left; width: 135px; padding-top: 4px; padding-right: 15px; overflow: hidden; }
+dl.form-item dd { float: left; width: 270px; }
+
+.form-profile { position: relative; }
+.form-profile .avatar-change { position: absolute; top: 34px; right: 0; padding: 10px; background: #f7f7f7; font-size: 11px; }
+
+/* Placeholder */
+:-moz-placeholder { color: #999; }
+.placeholder { color: #999; }
+
+/* MarkItUp */
+.mceEditor            { display: block; margin-bottom: 20px; }
+.markItUpResizeHandle { display: none; }
+.markItUpHeader:before,
+.markItUpHeader:after { content: ""; display: table; }
+.markItUpHeader:after { clear: both; }
+.markItUpHeader       { zoom: 1; }
+.markItUpHeader ul    { display: block; }
+.markItUpHeader a     { float: left; display: block; }
+
+
+/* Валидатор 
+---------------------------------------------------------------*/
+.validate-error-hide { display: none; }
+.validate-error-show { display: block; color: #f00; font-weight: bold; font-size: 12px; }
