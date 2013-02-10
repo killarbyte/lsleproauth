@@ -1,0 +1,1 @@
+Делаем нашу авторизацию в Live Street на шаблоне Social в стиле сайта leprosorium.ru
