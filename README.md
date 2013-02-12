@@ -1,24 +1,23 @@
 Делаем нашу авторизацию в Live Street на шаблоне Social в стиле сайта leprosorium.ru
 
-На данный момент сделано:
-
-ActionLogin/index.tpl
-ActionLogin/reminder.tpl
 
 
-Не сделано:
+ActionLogin/index.tpl			Основа готова но не понятно как сделать всплывающий экшен регистрации без загрузки в том же окне
 
-1)ActionRegister/ все, не цепляется css'ка спасает только принудительное указания свойства style для элемента
+ActionLogin/reminder.tpl		DONE
+ActionLogin/reactivation.tpl
+ActionLogin/exit.tpl
+ActionLogin/reminder_confirm.tpl
 
-<form action="{router page='registration'}" method="post" id="registration-form" style="background: url(http://dl.dropbox.com/u/99332327/img/scroll3.png) repeat scroll left top transparent;
-height:621px;
-		width:405px;
-		position:absolute;
-		/*bottom:10%;*/
-		top:50%;
-		margin-top:-310px;
-		left:50%;
-		margin-left:-203px;">
-	{hook run='form_registration_begin'} 
+ActionRegistration/index.tpl		Допилить капчу
+ActionRegistration/invite.tpl
+ActionRegistration/activate.tpl
+ActionRegistration/confirm.tpl
 
-2) Не вынесена js'ка для динамической смены bg при обновлении страницы(пока она подключена напрямую в tpl'ки) + не найден способ подменять цвет bg в соответствии с тоном цвета картинки BG, это можно увидить при обновлении страницы на leprosorium.ru так же не понятно как в случае с неправильным вводом все равно поменять BG
+
+
+
+
+Не вынесена js'ка для динамической смены bg при обновлении страницы(пока она подключена напрямую в tpl'ки) + не найден способ подменять цвет bg в соответствии с тоном цвета картинки BG, это можно увидить при обновлении страницы на leprosorium.ru так же не понятно как в случае с неправильным вводом все равно поменять BG
+
+Мусор в css и tpl
