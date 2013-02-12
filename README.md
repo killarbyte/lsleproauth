@@ -2,18 +2,18 @@
 
 
 
-ActionLogin/index.tpl			Основа готова но не понятно как сделать всплывающий экшен регистрации без загрузки в том же окне
+ActionLogin/index.tpl			Основа готова но не понятно как сделать всплывающий экшен регистрации без загрузки в том же окне<br>
 
-ActionLogin/reminder.tpl		DONE
-ActionLogin/reactivation.tpl
-ActionLogin/exit.tpl
-ActionLogin/reminder_confirm.tpl
-
-ActionRegistration/index.tpl		Допилить капчу
-ActionRegistration/invite.tpl
-ActionRegistration/activate.tpl
-ActionRegistration/confirm.tpl
-
+ActionLogin/reminder.tpl		DONE<br>
+ActionLogin/reactivation.tpl<br>
+ActionLogin/exit.tpl<br>
+ActionLogin/reminder_confirm.tpl<br>
+<br>
+ActionRegistration/index.tpl		Допилить капчу<br>
+ActionRegistration/invite.tpl<br>
+ActionRegistration/activate.tpl<br>
+ActionRegistration/confirm.tpl<br>
+<br><br><br><br>
 
 
 
