@@ -12,7 +12,7 @@ html, body, .main {
 		min-width:740px;
 	}
 
-.my-login-form { background: url(http://dl.dropbox.com/u/99332327/img/scroll3.png) repeat scroll left top transparent;
+.my-login-form { background: url(../images/auth/scroll3.png) repeat scroll left top transparent;
 height:621px;
 		width:405px;
 		position:absolute;
