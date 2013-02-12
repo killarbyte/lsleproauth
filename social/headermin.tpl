@@ -82,7 +82,7 @@
 		</style>
 	{/if}
 	
-	{if $sAction=='login'}<link rel='stylesheet' type='text/css' href='{cfg name="path.static.skin"}/css/login.css' />{/if}
+	<link rel='stylesheet' type='text/css' href='{cfg name="path.static.skin"}/css/login.css' />
 
 	{hook run='html_head_end'}
 </head>

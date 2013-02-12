@@ -7,7 +7,7 @@ $('body').css({ 'background-image': 'url(http://svirink.ru/templates/skin/social
 </script>
 
 <style>
-body { background: #FFFFFF ;}
+body { background: no-repeat scroll center center transparent ;}
 #wrapper, #content { background: transparent; }
 </style>
 
@@ -34,21 +34,12 @@ body { background: #FFFFFF ;}
 	});
 </script>
 
-<h2>{$aLang.registration}</h2>
-
 {hook run='registration_begin'}
 
-<form action="{router page='registration'}" method="post" id="registration-form" style="background: url(http://dl.dropbox.com/u/99332327/img/scroll3.png) repeat scroll left top transparent;
-height:621px;
-		width:405px;
-		position:absolute;
-		/*bottom:10%;*/
-		top:50%;
-		margin-top:-310px;
-		left:50%;
-		margin-left:-203px;">
+<form action="{router page='registration'}" method="post" id="registration-form" class="my-login-form">
 	{hook run='form_registration_begin'}
 
+	<div align="center"><h2>{$aLang.registration}</h2>
 	<p><label for="popup-registration-login">{$aLang.registration_login}</label>
 	<input type="text" name="login" id="popup-registration-login" value="{$_aRequest.login}" class="input-text input-width-300 js-ajax-validate" />
 	<i class="icon-ok-green validate-ok-field-login" style="display: none"></i>
@@ -84,7 +75,7 @@ height:621px;
 	{hook run='form_registration_end'}
 
 	<button type="submit" name="submit_register" class="button button-primary" id="registration-form-submit" disabled="disabled">{$aLang.registration_submit}</button>
-</form>
+</form></div>
 
 {hook run='registration_end'}
 
